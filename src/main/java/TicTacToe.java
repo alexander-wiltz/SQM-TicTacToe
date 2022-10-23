@@ -4,14 +4,15 @@ public class TicTacToe {
     /**
      * Checks if either player has won a tic-tac-toe game.
      * Inputs represent cells on the board:
-     *   1: player X field
-     *   2: player O field
-     *   0: empty position
+     * 1: player X field
+     * 2: player O field
+     * 0: empty position
      * Return values:
-     *   0: neither player has won
-     *   1: player X has won
-     *   2: player O has won
-     *   @throws IllegalArgumentException when the board is not valid
+     * 0: neither player has won
+     * 1: player X has won
+     * 2: player O has won
+     *
+     * @throws IllegalArgumentException when the board is not valid
      */
     public int checkTicTacToePosition(int[] board) throws IllegalArgumentException {
         // First check number of cells
